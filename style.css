@@ -63,6 +63,7 @@ nav i:hover {
     width: 4%;
     height: 91vh;
     background-color: #212121ff;
+    float: left;
 }
 
 .d1 i {
@@ -105,4 +106,136 @@ nav i:hover {
 .d1 img:nth-child(7) {
     position: relative;
     top: 41%;
+}
+
+/* content */
+
+.d2{
+    float: left;
+    width: 30%;
+    height: 91vh;
+    border: 2px solid #3b3333;
+    border-bottom: none;
+}
+
+/* content div1 */
+
+.d2 .div1{
+    padding: 6px 14px; 
+    border-bottom: 2px solid #3b3333;
+}
+
+.d2 .div1 h2{
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 11px;
+}
+
+.d2 .div1 i{
+    position: relative;
+    left: 40%;
+    padding: 13px 13px 13px 13px;
+    margin-left: 6px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.d2 .div1 i:hover{
+    cursor: pointer;
+    background-color: #5a5858;
+}
+
+/* content div2 */
+
+.d2 .div2{
+    padding: 10px 8px 10px 26px;
+    height: 64px;
+}
+
+.d2 .div2 input{
+    width: 347px;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 40px;
+    outline: none;
+    background-color: #383838ff;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #5e5c5c;
+}
+
+.d2 .div2 input:active{
+    border-bottom: 3px solid #155240;
+    border-bottom: 3px solid #367763;
+
+}
+
+::placeholder{
+    font-size: 13px;
+    color: #c4c4c4;
+    font-weight: 500;
+}
+
+
+.d2 .div2 i{
+    position: relative;
+    right: 93%;
+    color: #b1a7a7;
+    font-size: 15px;
+}
+
+/* content div3 */
+
+.div3{
+    padding: 12px 0px 0px 24px;
+    height: 72px;
+}
+
+
+.div3:hover{
+    cursor: pointer;
+    box-shadow: inset -10px -10px 15px rgba(11, 11, 11, 0.1);
+}
+
+.div3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.div3 h3{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    left: 8px;
+}
+
+p{
+    color: #a3a3a3ff;
+    font-size: 13px;    
+    position: relative;
+    bottom: 18px;
+    left: 52px;
+}
+
+.p1{
+    color: #a3a3a3ff;
+    font-size: 13px;
+    position: relative;
+    bottom: 33px;
+    left: 290px;
+}
+
+/* main content */
+
+.d3{
+    width: 66%;
+    height: 91vh;
+    border: 1px solid red;
+    float: right;
 }
