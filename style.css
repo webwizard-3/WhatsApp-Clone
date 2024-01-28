@@ -19,7 +19,7 @@ nav {
     height: 53px;
     background-color: #212121ff;
     padding-left: 8px;
-    border-bottom: 1px solid #3b3333;
+    border-bottom: 1px solid #1f1d1d;
 }
 
 nav img {
@@ -114,15 +114,16 @@ nav i:hover {
     float: left;
     width: 30%;
     height: 91vh;
-    border: 2px solid #3b3333;
+    border: 1px solid #1f1d1d;
     border-bottom: none;
+    border-top-left-radius:  10px;
 }
 
 /* content div1 */
 
 .d2 .div1{
     padding: 6px 14px; 
-    border-bottom: 2px solid #3b3333;
+    border-bottom: 1px solid #1f1d1d
 }
 
 .d2 .div1 h2{
@@ -199,35 +200,37 @@ nav i:hover {
 }
 
 .div3 img{
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 20px;
 }
 
 .div3 h3{
     color: white;
     font-size: 13px;
-    font-weight: 400;
     letter-spacing: 1px;
+    font-weight: 400;
     display: inline-block;
     position: relative;
     bottom: 25px;
     left: 8px;
 }
 
-p{
+.div3 p{
     color: #a3a3a3ff;
     font-size: 13px;    
     position: relative;
     bottom: 18px;
+    letter-spacing: 1px;
     left: 52px;
 }
 
-.p1{
+.div3 .p1{
     color: #a3a3a3ff;
     font-size: 13px;
     position: relative;
     bottom: 33px;
+    letter-spacing: 1px;
     left: 290px;
 }
 
@@ -238,4 +241,112 @@ p{
     height: 91vh;
     border: 1px solid red;
     float: right;
+}
+
+/* main content d4 */
+
+.d3 .d4{
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #3b3232ff;
+    padding: 10px;
+}
+
+.d3 .d4 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+.d4 h3{
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    bottom: 27px;
+    left: 8px;
+}
+
+.d4 p{
+    display: inline-block;
+    color: #b3b0b0;
+    position: relative;
+    bottom: 3px;
+    letter-spacing: 1px;
+    right: 95px;
+    font-size: 12px;
+}
+
+.d3 .d4 i{
+    position: relative;
+    bottom: 16px;
+    left: 60%;
+    padding: 14px;
+    margin: 0px 8px 5px -6px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.d3 .d4 i:hover{
+    cursor: pointer;
+    background-color: #5a5858;
+}    
+
+
+.d3 p:hover,.d3 h3:hover {
+    cursor: pointer;
+}
+    
+/* main content d5 */
+
+.d5{
+    background-image: url(images/images.jpeg);
+    width: 100%;
+    height: 430px;
+    background-position: center; 
+}
+
+
+/* main content d6 */
+
+.d6{
+    width: 100%;
+    height: 40px;
+    background-color: #2b2b2bff;
+}
+
+.d6 i{
+    position: relative;
+    left: 20px;
+    top: 3px;
+    padding-left: 20px;
+    padding: 14px;
+    margin: 0px 8px 5px -6px;
+    border-radius: 5px;
+}
+
+.d6 i:nth-child(4){
+    position: relative;
+    left: 110px;
+}
+
+.d6 input{
+    position: relative;
+    width:  70%;
+    height: 100%;
+    left: 70px;
+    outline: none;
+    border: none;
+    background-color: #2b2b2bff;
+    color: #fff;
+}
+
+.d6 i:hover{
+    cursor: pointer;
+    background-color: #5a5858;
 }
