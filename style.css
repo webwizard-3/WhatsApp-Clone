@@ -166,7 +166,7 @@ nav i:hover {
     border-bottom: 2px solid #5e5c5c;
 }
 
-.d2 .div2 input:active{
+.d2 .div2 input:focus{
     border-bottom: 3px solid #155240;
     border-bottom: 3px solid #367763;
 
@@ -230,7 +230,6 @@ nav i:hover {
     font-size: 13px;
     position: relative;
     bottom: 33px;
-    letter-spacing: 1px;
     left: 290px;
 }
 
@@ -239,7 +238,7 @@ nav i:hover {
 .d3{
     width: 66%;
     height: 91vh;
-    border: 1px solid red;
+    border: 1px solid  #1f1d1d;
     float: right;
 }
 
@@ -298,7 +297,7 @@ nav i:hover {
 }    
 
 
-.d3 p:hover,.d3 h3:hover {
+.d3 p:hover,.d3 h3:hover,.d3 img:hover {
     cursor: pointer;
 }
     
@@ -309,6 +308,102 @@ nav i:hover {
     width: 100%;
     height: 430px;
     background-position: center; 
+    color: #fff;
+    padding: 10px;
+}
+
+/* main content d5 d7 */
+
+.d5 .d7{
+    position: relative;
+    width: 210px;
+    height: 40px;
+    background-color: #025948ff;
+    border:2px solid #033027;
+    padding: 10px 0px 0px 10px;
+    margin-top: 10px;
+    left: 74%;
+}
+
+/* main content d5 d8 */
+
+.d5 .d8{
+    position: relative;
+    width: 390px;
+    height: 55px;
+    background-color: #343436ff;
+    border:2px solid #4b4b4e;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* main content d5 d9 */
+
+.d5 .d9{
+    position: relative;
+    left: 62%;
+    width: 310px;
+    height: 40px;
+    border:2px solid #033027;
+    background-color: #025948ff;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* main content d5 d10 */
+
+.d5 .d10{
+    position: relative;
+    width: 280px;
+    height: 40px;
+    background-color: #343436ff;
+    border:2px solid #4b4b4e;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* main content d5 d11 */
+
+.d5 .d11{
+    position: relative;
+    left: 65%;
+    width: 285px;
+    height: 40px;
+    background-color: #025948ff;
+    border:2px solid #033027;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* main content d5 d12 */
+
+.d5 .d12{
+    position: relative;
+    width: 260px;
+    height: 40px;
+    background-color: #343436ff;
+    border:2px solid #4b4b4e;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* main content d5 d13 */
+
+.d5 .d13{
+    position: relative;
+    left: 71%;
+    width: 230px;
+    height: 40px;
+    background-color: #025948ff;
+    border:2px solid #033027;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -327,19 +422,30 @@ nav i:hover {
     padding-left: 20px;
     padding: 14px;
     margin: 0px 8px 5px -6px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .d6 i:nth-child(4){
     position: relative;
     left: 110px;
+    border-radius: 50px;
+}
+
+.d6 i:nth-child(5):hover{
+    background-color: #5debf0;
+    color: black;
+}
+
+.d6 i:nth-child(5){
+    color: #5debf0;
+    border-radius: 50px;
 }
 
 .d6 input{
     position: relative;
     width:  70%;
     height: 100%;
-    left: 70px;
+    left: 42px;
     outline: none;
     border: none;
     background-color: #2b2b2bff;
@@ -350,3 +456,6 @@ nav i:hover {
     cursor: pointer;
     background-color: #5a5858;
 }
+
+
+
